@@ -1,0 +1,58 @@
+# Build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Dependency/packaging
+*.idb
+*.pdb
+*.mod
+*.exp
+
+# Compiler-generated
+*.ilk
+*.pch
+*.pdb
+*.rsp
+*.tlh
+*.tli
+
+# Debug/Profiling
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+
+# IDEs/Editors
+# VSCode
+.vscode/
+# CLion
+.idea/
+cmake-build-*/
+# Visual Studio
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+
+# OS-specific
+.DS_Store
+Thumbs.db
